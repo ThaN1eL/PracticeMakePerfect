@@ -1,0 +1,24 @@
+#asd {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    font-style:helvetica;
+}
+
+
+#btnContainer {
+    text-align: center;
+}
+
+.button {
+    padding: 0.7rem 1.3rem;
+    font-size: 1.5rem;
+    color:white;
+    background-color:hsl(214, 100%, 74%) ;
+    border-radius: 10px;
+    cursor:crosshair;
+    transition: background-color 0.2s;
+}
+.button:hover {
+    background-color: hsl(214, 100%, 40%);
+}
